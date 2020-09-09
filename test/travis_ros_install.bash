@@ -8,17 +8,17 @@ pip install rospkg
 
 #ros install
 cd ..
-git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop.git
+git clone https://github.com/Iryotaro/ros_setup_scripts_Ubuntu18.04_desktop.git
 cd ./ros_setup_scripts_Ubuntu18.04_desktop
 bash ./step0.bash
 bash ./step1.bash
 
 #catkin setup
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/src
+mkdir -p ~/RosTest/src
+cd ~/RosTest/src
 source /opt/ros/indigo/setup.bash
 catkin_init_workspace
-cd ~/catkin_ws
+cd ~/RosTest
 catkin_make
 
 # Copyright 2016 Ryuichi Ueda
