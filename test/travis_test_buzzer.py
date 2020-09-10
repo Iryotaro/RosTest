@@ -5,10 +5,10 @@ import time
 
 class BuzzerTest(unittest.TestCase):
     def test_node_exist(self):
-        nodes _ rosnode.get_node_names()
+        nodes = rosnode.get_node_names()
         self.assertIn('/buzzer',nodes, "node does not exist")
 
-if if __name__ == "__main__":
+if __name__ == "__main__":
     time.sleep(3)
     rospy.init_node('travis_test_buzzer')
-    rostest.rosrun('pimouse_ros','travis_test_buzzer',BuzzerTest)
+    rostest.rosrun('ros_test','travis_test_buzzer',BuzzerTest)
