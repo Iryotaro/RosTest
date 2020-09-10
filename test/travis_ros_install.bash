@@ -14,13 +14,9 @@ bash ./step0.bash
 bash ./step1.bash
 
 #catkin setup
-mkdir -p ~/RosTest/src
-cd ~/RosTest/src
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
 source /opt/ros/indigo/setup.bash
 catkin_init_workspace
-cd ~/RosTest
+cd ~/catkin_ws
 catkin_make
-
-# Copyright 2016 Ryuichi Ueda
-# Released under the BSD License.
-# To make line numbers be identical with the book, this statement is written here. Don't move it to the header.
