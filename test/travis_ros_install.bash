@@ -7,7 +7,6 @@ sudo pip install pyyaml
 sudo pip install rospkg
 
 #ros install
-cd ..
 git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop.git
 cd ./ros_setup_scripts_Ubuntu18.04_desktop
 bash ./step0.bash
