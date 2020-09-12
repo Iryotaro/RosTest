@@ -10,8 +10,8 @@ sudo pip install rospkg
 cd ../
 git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop.git
 cd ./ros_setup_scripts_Ubuntu18.04_desktop
-bash ./setp0.bash
-bash ./setp1.bash
+bash ./step0.bash
+bash ./step1.bash
 
 #catkin setup
 mkdir -p ~/RosTest/src
